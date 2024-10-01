@@ -86,7 +86,6 @@ for i, image in enumerate([lena, cameraman]):
     axs[i].imshow(image, cmap='gray')
 
 fig.suptitle('Lena and Cameraman Original Images')
-# plt.subplots_adjust(top=1.4)
 plt.show()
 plt.gray()
 
@@ -134,4 +133,3 @@ tire_plotting(I_out2, "Gamma Corrected (Î³=1.3) Tire Image", "Gamma Corrected (Î
 # apply histogram equalization
 hist_equalizer = skimage.exposure.equalize_hist(tire)
 tire_plotting(hist_equalizer, "Tire Image Histogram Equalization", "Tire Histogram Equalization")
-
