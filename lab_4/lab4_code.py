@@ -195,4 +195,4 @@ lee_filter(I, 3, sigma_noise_sq)
 
 lee_filter(I, 7, sigma_noise_sq)
 
-lee_filter(I, 15, 0.009)
+lee_filter(I, 15, sigma_noise_sq)
